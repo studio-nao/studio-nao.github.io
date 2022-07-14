@@ -1,0 +1,29 @@
+baseURL = "https://studio-nao.github.io"
+title = "Studio Nao"
+theme = "hugo-notepadium"
+copyright = "2022 Studio Nao"
+
+[params]
+style = "dark"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
+dateFormat = "Monday, January 2, 2006"  # if unset, default is "2006-01-02"
+logo = ""  # if you have a logo png
+slogan = "\\o/"
+license = ""  # CC License
+fullRss = false # Puts entire HTML post into rss 'description' tag. If unset, default is false.
+ipv6ready = true # Show IPV6Ready logo on footer.
+
+[params.comments]
+enable = false  # En/Disable comments globally, default: false. You can always enable comments on per page.
+
+[params.share]
+enable = true
+addThisId = ""
+inlineToolId = ""
+
+[params.nav]
+showCategories = true       # /categories/
+
+[[params.nav.custom]]
+title = "About"
+url = "/about"
+
